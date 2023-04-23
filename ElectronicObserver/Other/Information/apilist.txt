@@ -1754,6 +1754,7 @@ Request.api_req_sortie/battle	：通常艦隊　昼戦
 	api_recovery_type	：応急修理要員/女神進撃フラグ 0=なし, 1=要員, 2=女神
 	api_supply_flag		：洋上補給フラグ 使用すれば1, 使用しなければ存在しない
 	api_ration_flag		：戦闘糧食フラグ 使用すれば1, 使用しなければ存在しない
+	api_smoke_flag		：煙幕展開フラグ 使用すれば1, 使用しなければ0, 使用できない時は存在しない
 
 api_req_sortie/battle	：通常艦隊　昼戦
 	api_deck_id			：味方出撃艦隊ID　数値型
@@ -1770,6 +1771,7 @@ api_req_sortie/battle	：通常艦隊　昼戦
 	api_eSlot			：敵装備スロット [艦船数][5] 空きスロットは-1
 	api_eParam			：敵基礎ステータス [艦船数][4] [0]=火力, [1]=雷装, [2]=対空, [3]=装甲
 	api_escape_idx		：退避艦インデックス　[退避艦数]　1基点　いなければ存在しない
+	api_smoke_type		：Smoke screen success/fail; 0=Fail, 1=?, 2=Success
 	api_midnight_flag	：夜戦突入可否　0=不可(昼戦で敵全滅など), 1=可能
 	api_search			：索敵成否　[0]=味方, [1]=敵　1=成功, 2=成功(未帰還機あり), 3=未帰還, 4=失敗, 5=発見, 6=発見できず
 	api_air_base_injection	：基地航空隊　噴式強襲攻撃
